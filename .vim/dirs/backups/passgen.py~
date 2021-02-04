@@ -1,0 +1,16 @@
+import random
+
+
+minus = 'abcdefghijklmnopqrstuvwxyz'
+mayus = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+number = '0123456789'
+symbol = '{}{}()*:/,._-@#'
+
+todo = minus + mayus + number + symbol
+
+cant = 16
+
+password = "".join(random.sample(todo,cant))
+
+prin?!?jedi=3, t('Tu nuevo password es: '+ password)?!? (*_**values: object*_*, sep: Optional[Text]=..., end: Optional[Text]=..., file: Optional[_Writer]=..., flush: bool=...) ?!?jedi?!?' '
+print('Test-1')

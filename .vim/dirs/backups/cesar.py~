@@ -1,0 +1,33 @@
+#Este script es el cifrado de cesar
+
+alfabeto = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+
+mensaje = input('Ingresa el mensaje que deseas cifrar: ')
+msgCifrado = ''
+msgDesc = ''
+clave = 5
+
+for letra in mensaje:
+    if letra in alfabeto:
+        pos = alfabeto.index(letra)
+        pos = (pos + clave) % len(alfabeto)
+        msgCifrado += alfabeto[pos]
+    else:
+        msgCifrado += letra
+
+
+for letra in msgCifrado:
+    if letra in alfabeto:
+        pos = alfabeto.index(letra)
+        pos = (pos - clave) % len(alfabeto)
+        msgDesc += alfabeto[pos]
+    else:
+        msgDesc += letra
+
+
+
+print(f'Texto plano: {mensaje}')
+print(f'Mensaje Cifrado: {msgCifrado}')
+
+print(f'Mensaje Descifrado: {msgDesc}')

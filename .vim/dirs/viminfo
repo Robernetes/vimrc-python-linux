@@ -1,0 +1,1031 @@
+# Vim 8.1 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Viminfo version
+|1,4
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Último Patrón de búsqueda:
+~MSle0~/colorscheme
+
+# Última cadena de sustitución:
+$
+
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:wq
+|2,0,1612358862,,"wq"
+:q
+|2,0,1612312099,,"q"
+:source %
+|2,0,1611715893,,"source %"
+:ter
+|2,0,1610629178,,"ter"
+:PlugInstall
+|2,0,1610375601,,"PlugInstall"
+:w
+|2,0,1609709648,,"w"
+:soruce %
+|2,0,1609709489,,"soruce %"
+:VirtualEnvList
+|2,0,1609338898,,"VirtualEnvList"
+:plugInstall
+|2,0,1609138380,,"plugInstall"
+:tabclose
+|2,0,1609100555,,"tabclose"
+:tabnew test3.py
+|2,0,1609100397,,"tabnew test3.py"
+:vim-addons status
+|2,0,1609097043,,"vim-addons status"
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+? \s\+$
+|2,1,1612312095,,"\\s\\+$"
+?/html
+|2,1,1610483826,47,"html"
+?/nerd
+|2,1,1610371073,47,"nerd"
+?/colorscheme
+|2,1,1610314145,47,"colorscheme"
+?/signify
+|2,1,1609191286,47,"signify"
+?/airline_
+|2,1,1609140079,47,"airline_"
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+@/home/raagus/Code/Python/Flask2021/flaskPlatzi/cursoapp/app/auth/views.py
+|2,3,1611716910,,"/home/raagus/Code/Python/Flask2021/flaskPlatzi/cursoapp/app/auth/views.py"
+@/home/raagus/Code/Python/Flask2021/flaskPlatzi/cursoapp/app/auth/__init__.py
+|2,3,1611716710,,"/home/raagus/Code/Python/Flask2021/flaskPlatzi/cursoapp/app/auth/__init__.py"
+@/home/raagus/Code/Python/Flask2021/flaskPlatzi/cursoapp/app/config.py
+|2,3,1610486657,,"/home/raagus/Code/Python/Flask2021/flaskPlatzi/cursoapp/app/config.py"
+@/home/raagus/Code/Python/Criptografia/cesar.py
+|2,3,1609110497,,"/home/raagus/Code/Python/Criptografia/cesar.py"
+@/home/raagus/Code/Python/Criptografia/atbash_func.py
+|2,3,1609100634,,"/home/raagus/Code/Python/Criptografia/atbash_func.py"
+@/home/raagus/Code/Python/Criptografia/test2.py
+|2,3,1609099193,,"/home/raagus/Code/Python/Criptografia/test2.py"
+
+# Historia de Debug Line (de lo más nuevo a lo más antiguo):
+
+# Registros:
+"0	CHAR	0
+	
+	app = Flask(__name__)
+	bootstrap = Bootstrap(app)
+	
+	app.config['SECRET_KEY'] = 'key secret'
+	
+|3,0,0,0,6,0,1611610496,"","app = Flask(__name__)","bootstrap = Bootstrap(app)","","app.config['SECRET_KEY'] = 'key secret'",""
+"1	CHAR	0
+	
+	class LoginForm(FlaskForm):
+	    username = StringField('Nombre de usuario', validators=[DataRequired()])
+	    password = PasswordField('Password', validators=[DataRequired()])
+	    submit = SubmitField('Enviar')
+	
+	
+|3,0,1,0,7,0,1611610496,"","class LoginForm(FlaskForm):","    username = StringField('Nombre de usuario', validators=[DataRequired()])","    password = PasswordField('Password', validators=[DataRequired()])","    submit = SubmitField('Enviar')","",""
+"2	CHAR	0
+	
+	class LoginForm(FlaskForm):
+	    username = StringField('Nombre de usuario', validators=[DataRequired()])
+	    password = PasswordField('Password', validators=[DataRequired()])
+	    submit = SubmitField('Enviar')
+	
+|3,0,2,0,6,0,1610663992,"","class LoginForm(FlaskForm):","    username = StringField('Nombre de usuario', validators=[DataRequired()])","    password = PasswordField('Password', validators=[DataRequired()])","    submit = SubmitField('Enviar')",""
+"3	LINE	0
+	bootstrap = Bootstrap(app)
+|3,0,3,1,1,0,1610488885,"bootstrap = Bootstrap(app)"
+"4	LINE	0
+	app.config['SECRET_KEY'] = 'key secret'
+|3,0,4,1,1,0,1610488837,"app.config['SECRET_KEY'] = 'key secret'"
+"5	LINE	0
+	    app.config['SECRET_KEY']='SUPER_SECRET_KEY'
+|3,0,5,1,1,0,1610486813,"    app.config['SECRET_KEY']='SUPER_SECRET_KEY'"
+"6	LINE	0
+	    app = Flask(__name__)
+|3,0,6,1,1,0,1610485208,"    app = Flask(__name__)"
+"7	LINE	0
+	    bootstrap = Bootstrap(app)
+|3,0,7,1,1,0,1610485207,"    bootstrap = Bootstrap(app)"
+"8	LINE	0
+	    app.config['SECRET_KEY'] = 'key secret'
+|3,0,8,1,1,0,1610485205,"    app.config['SECRET_KEY'] = 'key secret'"
+"9	LINE	0
+	
+|3,0,9,1,1,0,1610485189,""
+"z	LINE	0
+	File:/home/raagus/Desktop/testF.py
+	
+|3,0,35,1,2,0,1610370970,"File:/home/raagus/Desktop/testF.py",""
+""-	CHAR	0
+	#
+|3,1,36,0,1,0,1612357677,"#"
+
+# variables globales:
+
+# Marcas en el archivo:
+'0  3  15  ~/Desktop/test-git/.git/COMMIT_EDITMSG
+|4,48,3,15,1612358862,"~/Desktop/test-git/.git/COMMIT_EDITMSG"
+'1  15  16  ~/.zshrc
+|4,49,15,16,1612357767,"~/.zshrc"
+'2  1  16  ~/Desktop/test-git/test.py
+|4,50,1,16,1612312099,"~/Desktop/test-git/test.py"
+'3  24  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,51,24,0,1612311549,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+'4  1  0  ~/.vimrc
+|4,52,1,0,1611884191,"~/.vimrc"
+'5  6  27  ~/Desktop/test.cpp
+|4,53,6,27,1611881373,"~/Desktop/test.cpp"
+'6  7  7  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/app/__init__.py
+|4,54,7,7,1611721780,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/app/__init__.py"
+'7  460  0  ~/.vimrc
+|4,55,460,0,1611721755,"~/.vimrc"
+'8  460  0  ~/.vimrc
+|4,56,460,0,1611721755,"~/.vimrc"
+'9  1  0  ~/Code/Python/Flask2021/my-to-do/todo/db.py
+|4,57,1,0,1611716099,"~/Code/Python/Flask2021/my-to-do/todo/db.py"
+
+# Lista de saltos (el más reciente va primero):
+-'  3  15  ~/Desktop/test-git/.git/COMMIT_EDITMSG
+|4,39,3,15,1612358862,"~/Desktop/test-git/.git/COMMIT_EDITMSG"
+-'  1  0  ~/Desktop/test-git/.git/COMMIT_EDITMSG
+|4,39,1,0,1612357845,"~/Desktop/test-git/.git/COMMIT_EDITMSG"
+-'  15  16  ~/.zshrc
+|4,39,15,16,1612357767,"~/.zshrc"
+-'  15  16  ~/.zshrc
+|4,39,15,16,1612357767,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1612357687,"~/.zshrc"
+-'  17  1  ~/.zshrc
+|4,39,17,1,1612357687,"~/.zshrc"
+-'  18  6  ~/.zshrc
+|4,39,18,6,1612357686,"~/.zshrc"
+-'  18  6  ~/.zshrc
+|4,39,18,6,1612357686,"~/.zshrc"
+-'  84  0  ~/.zshrc
+|4,39,84,0,1612357672,"~/.zshrc"
+-'  84  0  ~/.zshrc
+|4,39,84,0,1612357672,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1612357535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1612357535,"~/.zshrc"
+-'  1  16  ~/Desktop/test-git/test.py
+|4,39,1,16,1612312099,"~/Desktop/test-git/test.py"
+-'  1  16  ~/Desktop/test-git/test.py
+|4,39,1,16,1612312099,"~/Desktop/test-git/test.py"
+-'  1  16  ~/Desktop/test-git/test.py
+|4,39,1,16,1612312099,"~/Desktop/test-git/test.py"
+-'  1  16  ~/Desktop/test-git/test.py
+|4,39,1,16,1612312099,"~/Desktop/test-git/test.py"
+-'  24  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,24,0,1612311549,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  24  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,24,0,1612311549,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  24  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,24,0,1612311549,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  24  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,24,0,1612311549,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  24  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,24,0,1612311549,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  24  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,24,0,1612311549,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  24  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,24,0,1612311549,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  24  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,24,0,1612311549,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  1  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,1,0,1612311501,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  1  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,1,0,1612311501,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  1  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,1,0,1612311501,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  1  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,1,0,1612311501,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  1  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,1,0,1612311501,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  1  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,1,0,1612311501,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  1  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,1,0,1612311501,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  1  0  ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+|4,39,1,0,1612311501,"~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1611884191,"~/.vimrc"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  6  27  ~/Desktop/test.cpp
+|4,39,6,27,1611881373,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+-'  1  0  ~/Desktop/test.cpp
+|4,39,1,0,1611881290,"~/Desktop/test.cpp"
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/Desktop/test-git/.git/COMMIT_EDITMSG
+	*	1612358857	0
+	"	3	15
+	^	3	16
+	.	3	15
+	+	4	0
+	+	3	15
+
+> ~/.zshrc
+	*	1612357760	0
+	"	15	16
+	^	15	17
+	.	15	16
+	+	17	1
+	+	18	6
+	+	18	0
+	+	17	0
+	+	15	16
+
+> ~/Desktop/test-git/test.py
+	*	1612312096	0
+	"	1	16
+	^	1	17
+	.	1	16
+	+	1	16
+
+> ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/main.py
+	*	1612311544	0
+	"	24	0
+	^	1	17
+	.	1	17
+	+	13	0
+	+	8	25
+	+	13	17
+	+	14	0
+	+	15	0
+	+	14	0
+	+	9	30
+	+	18	0
+	+	11	12
+	+	1	17
+
+> ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/NERD_tree_1
+	*	1612311543	0
+	"	9	0
+	.	1	0
+	+	1	0
+
+> ~/.vimrc
+	*	1611884143	0
+	"	1	0
+	^	230	33
+	.	230	32
+	+	250	28
+	+	103	0
+	+	98	0
+	+	250	0
+	+	249	31
+	+	62	28
+	+	174	3
+	+	290	18
+	+	67	0
+	+	68	0
+	+	67	21
+	+	241	34
+	+	242	23
+	+	67	0
+	+	144	11
+	+	145	4
+	+	175	0
+	+	213	7
+	+	214	13
+	+	449	33
+	+	450	0
+	+	449	0
+	+	450	28
+	+	67	26
+	+	62	2
+	+	62	27
+	+	66	31
+	+	65	24
+	+	224	28
+	+	225	0
+	+	228	0
+	+	225	11
+	+	242	25
+	+	10	0
+	+	62	32
+	+	230	0
+	+	228	58
+	+	242	8
+	+	243	0
+	+	242	4
+	+	243	4
+	+	228	30
+	+	243	4
+	+	242	4
+	+	63	27
+	+	245	0
+	+	64	0
+	+	244	4
+	+	242	4
+	+	9	28
+	+	231	23
+	+	230	32
+
+> ~/Desktop/test.cpp
+	*	1611881343	0
+	"	6	27
+	^	6	28
+	.	6	27
+	+	5	11
+	+	6	23
+	+	9	12
+	+	3	15
+	+	10	0
+	+	8	19
+	+	6	27
+
+> ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/app/__init__.py
+	*	1611721742	0
+	"	7	7
+	^	10	31
+	.	10	30
+	+	6	17
+	+	7	0
+	+	13	0
+	+	7	23
+	+	12	0
+	+	7	25
+	+	8	30
+	+	11	45
+	+	11	0
+	+	11	13
+	+	2	36
+	+	3	25
+	+	11	0
+	+	9	32
+	+	10	27
+	+	4	21
+	+	10	30
+
+> ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/tests/test_base.py
+	*	1611721085	0
+	"	41	4
+	^	42	53
+	.	41	0
+	+	41	45
+	+	42	52
+	+	17	0
+	+	41	0
+
+> ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/app/auth/views.py
+	*	1611720748	0
+	"	9	11
+	^	9	12
+	.	9	12
+	+	4	18
+	+	5	12
+	+	6	7
+	+	1	30
+	+	6	15
+	+	7	32
+	+	9	12
+
+> ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/app/auth/__init__.py
+	*	1611717250	0
+	"	2	14
+	^	2	19
+	.	2	18
+	+	4	51
+	+	2	18
+
+> ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/.env
+	*	1611716009	0
+	"	2	16
+	^	2	17
+	.	2	16
+	+	2	16
+
+> ~/Code/Python/Flask2021/my-to-do/todo/db.py
+	*	1611715537	0
+	"	1	0
+
+> ~/Code/Python/api/RESTful/users.py
+	*	1611614494	0
+	"	4	0
+	.	3	0
+	+	3	0
+
+> ~/Code/Python/api/RESTful/main.py
+	*	1611614390	0
+	"	1	0
+	^	17	66
+	.	17	65
+	+	1	9
+	+	3	0
+	+	4	0
+	+	3	39
+	+	3	40
+	+	8	66
+	+	10	77
+	+	12	16
+	+	20	24
+	+	8	17
+	+	20	11
+	+	14	24
+	+	14	19
+	+	20	0
+	+	14	0
+	+	20	0
+	+	14	19
+	+	20	12
+	+	14	0
+	+	20	23
+	+	20	17
+	+	20	36
+	+	14	0
+	+	6	0
+	+	5	43
+	+	8	14
+	+	20	0
+	+	13	19
+	+	13	0
+	+	14	26
+	+	15	20
+	+	16	72
+	+	19	76
+	+	20	0
+	+	21	0
+	+	16	39
+	+	21	0
+	+	23	25
+	+	24	19
+	+	16	76
+	+	17	65
+
+> ~/.config/nvim/themes/airline.vim
+	*	1611610820	0
+	"	2	32
+	^	10	33
+	.	10	32
+	+	36	0
+	+	37	0
+	+	35	37
+	+	12	0
+	+	14	0
+	+	14	5
+	+	16	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	22	35
+	+	23	43
+	+	23	36
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	10	32
+
+> ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/app/forms.py
+	*	1610664008	0
+	"	1	0
+
+> ~/Desktop/testF.py
+	*	1610663035	0
+	"	1	0
+	^	16	37
+	.	6	0
+	+	3	19
+	+	2	0
+	+	6	15
+	+	7	12
+	+	8	28
+	+	18	24
+	+	19	21
+	+	18	0
+	+	10	42
+	+	11	11
+	+	12	27
+	+	10	9
+	+	5	4
+	+	12	34
+	+	10	30
+	+	11	12
+	+	5	0
+	+	14	17
+	+	15	12
+	+	16	36
+	+	6	0
+
+> /media/raagus/Storage/CODE/Python/Scripts 2019/ConjuntosGrafi.py
+	*	1610632855	0
+	"	150	0
+
+> ~/Desktop/ProyectCombinat.py
+	*	1610582538	0
+	"	55	0
+	.	20	0
+	+	20	0
+
+> ~/Code/Python/Flask2021/flaskPlatzi/cursoapp/app/config.py
+	*	1610488938	0
+	"	1	0
+	^	2	30
+	.	2	29
+	+	2	29
+
+> ~/Desktop/passgen.py
+	*	1610483952	0
+	"	1	0
+	^	16	13
+	.	15	0
+	+	16	4
+	+	15	0
+	+	16	6
+	+	15	0
+	+	16	38
+	+	15	0
+	+	16	28
+	+	15	0
+	+	4	0
+	+	1	13
+	+	3	5
+	+	1	0
+	+	3	10
+	+	1	0
+	+	2	0
+	+	16	12
+	+	15	0
+
+> ~/Desktop/__Tagbar__.1
+	*	1610483950	0
+	"	4	4
+	.	14	0
+	+	14	0
+
+> ~/Desktop/NERD_tree_1
+	*	1610483928	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/Code/Python/Flask2021/my-to-do/todo/templates/todo/index.html
+	*	1610483110	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	2	0
+
+> ~/Code/Python/Flask2021/my-to-do/todo/NERD_tree_1
+	*	1610482931	0
+	"	10	0
+	.	1	0
+	+	1	0
+
+> ~/Code/Python/Flask2021/my-to-do/todo/__init__.py
+	*	1610482884	0
+	"	1	0
+
+> ~/Code/Python/api/RESTful/NERD_tree_1
+	*	1610482749	0
+	"	10	0
+	.	1	0
+	+	1	0
+
+> ~/Code/Python/Django/test1/primero/manage.py
+	*	1610394450	0
+	"	1	0
+
+> ~/Code/Python/Django/test1/manage.py
+	*	1610315380	0
+	"	1	0
+
+> ~/Code/Python/Flask2021/Math-Solver-master/README.md
+	*	1610306836	0
+	"	1	0
+
+> ~/.config/nvim/vim-plug/plugins.vim
+	*	1609710032	0
+	"	1	0
+	^	1	26
+	.	1	26
+	+	2	0
+	+	1	26
+
+> /media/raagus/Storage/CODE/Python/VIM_config/nvim_config-master/init.vim
+	*	1609709957	0
+	"	1	0
+
+> /media/raagus/Storage/CODE/Python/VIM_config/nvim_config-master/vim-plug/plugins.vim
+	*	1609709937	0
+	"	1	0
+
+> ~/.config/nvim/autoload/plug.vim
+	*	1609709866	0
+	"	202	0
+
+> ~/.config/nvim/general/settings.vim
+	*	1609709838	0
+	"	81	0
+	.	50	0
+	+	50	0
+
+> ~/.config/nvim/plug-config/coc.vim
+	*	1609709803	0
+	"	82	0
+
+> ~/.config/nvim/plug-config/start-screen.vim
+	*	1609709778	0
+	"	2	0
+	^	3	39
+	.	3	39
+	+	3	39
+
+> ~/.config/nvim/coc-settings.json
+	*	1609709719	0
+	"	1	0
+
+> ~/.config/nvim/init.vim
+	*	1609709691	0
+	"	1	0
+	^	8	16
+	.	8	15
+	+	1	15
+	+	2	15
+	+	3	15
+	+	4	15
+	+	5	15
+	+	6	15
+	+	7	15
+	+	8	15
+
+> ~/.config/nvim/keys/mappings.vim
+	*	1609709320	0
+	"	1	0
+
+> ~/.config/nvim/keys/which-key.vim
+	*	1609709313	0
+	"	1	0
+
+> ~/.config/nvim/themes/gruvbox.vim
+	*	1609709126	0
+	"	1	0
+
+> ~/Code/Python/Flask2021/helppoints/app/__init__.py
+	*	1609375291	0
+	"	46	0
+
+> ~/Desktop/testenv/app.py
+	*	1609338179	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/Code/Python/Criptografia/cesar.py
+	*	1609154180	0
+	"	24	0
+	^	5	29
+	.	5	28
+	+	1	35
+	+	3	0
+	+	5	21
+	+	6	15
+	+	12	28
+	+	12	34
+	+	11	0
+	+	13	33
+	+	13	42
+	+	12	0
+	+	14	35
+	+	18	5
+	+	17	0
+	+	18	6
+	+	17	0
+	+	18	18
+	+	17	0
+	+	18	6
+	+	17	0
+	+	18	0
+	+	17	0
+	+	18	28
+	+	17	0
+	+	19	5
+	+	18	0
+	+	19	7
+	+	18	0
+	+	19	35
+	+	18	0
+	+	19	39
+	+	10	15
+	+	5	28
+
+> ~/Code/Python/Criptografia/NERD_tree_1
+	*	1609112544	0
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~/Code/Python/Criptografia/atbash_func.py
+	*	1609112542	0
+	"	3	0
+	^	39	16
+	.	38	0
+	+	1	0
+	+	32	0
+	+	7	18
+	+	8	0
+	+	16	25
+	+	20	18
+	+	21	0
+	+	40	21
+	+	40	0
+	+	21	0
+	+	29	22
+	+	36	0
+	+	7	39
+	+	20	16
+	+	36	0
+	+	40	0
+	+	36	11
+	+	32	0
+	+	36	19
+	+	36	32
+	+	32	0
+	+	36	3
+	+	32	0
+	+	39	5
+	+	36	0
+	+	32	11
+	+	31	0
+	+	32	41
+	+	31	0
+	+	32	0
+	+	36	20
+	+	32	0
+	+	31	0
+	+	34	0
+	+	20	18
+	+	37	18
+	+	37	37
+	+	36	0
+	+	20	22
+	+	40	5
+	+	39	0
+	+	40	6
+	+	40	9
+	+	39	0
+	+	20	30
+	+	36	0
+	+	37	6
+	+	39	0
+	+	40	12
+	+	39	6
+	+	38	0
+
+> ~/Code/Python/Criptografia/atbash.py
+	*	1609100658	0
+	"	1	0
+	^	16	1
+	.	19	0
+	+	3	0
+	+	2	0
+	+	6	29
+	+	6	0
+	+	6	30
+	+	6	0
+	+	7	0
+	+	6	15
+	+	5	0
+	+	6	45
+	+	5	0
+	+	3	0
+	+	15	0
+	+	16	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	27
+	+	24	20
+	+	25	18
+	+	26	28
+	+	19	16
+	+	27	33
+	+	29	19
+	+	32	5
+	+	31	0
+	+	32	26
+	+	31	0
+	+	32	40
+	+	31	0
+	+	16	1
+	+	19	0
+
+> ~/Code/Python/Criptografia/test2.py
+	*	1609100433	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/Code/Python/Criptografia/test3.py
+	*	1609100408	0
+	"	1	0
+
+> ~/Code/Python/Criptografia/__Tagbar__.1
+	*	1609098711	0
+	"	7	4
+	.	10	0
+	+	10	0
+
+> ~/passgen.py
+	*	1606659009	0
+	"	1	0
+
+> ~/NERD_tree_1
+	*	1605449838	0
+	"	7	1
+	.	1	0
+	+	1	0
+
+> ~/Desktop/test.py
+	*	1605341571	0
+	"	15	13
+	^	15	14
+	.	14	0
+	+	1	8
+	+	1	11
+	+	1	9
+	+	1	0
+	+	1	17
+	+	1	0
+	+	1	4
+	+	1	5
+	+	1	0
+	+	1	30
+	+	1	0
+	+	1	13
+	+	1	54
+	+	5	34
+	+	5	0
+	+	1	13
+	+	3	0
+	+	4	5
+	+	5	0
+	+	6	21
+	+	7	26
+	+	13	18
+	+	13	32
+	+	13	43
+	+	12	0
+	+	15	5
+	+	15	14
+	+	14	0
+
+> ~/Code/Python/Flask2021/flaskPlatzi/main.py
+	"	1	0

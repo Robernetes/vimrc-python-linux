@@ -1,0 +1,40 @@
+#cifrador mediante Atbash
+
+alfabeto = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+cifra = ''.join(reversed(alfabeto))
+
+
+def encriptaMsg(mensaje, alfabeto, cifra):
+    mensaje_cifrado = ''
+    for letra in mensaje:
+        if letra in alfabeto:
+            pos = alfabeto.index(letra)
+            letra_cifrada = cifra[pos]
+            mensaje_cifrado += letra_cifrada
+        else:
+            mensaje_cifrado += letra
+    return mensaje_cifrado
+
+
+
+def descifraMsg(mensaje_cifrado,alfabeto,cifra):
+    mensaje_desc = ''
+    for letra in mensaje_cifrado:
+        if letra in cifra:
+            pos = cifra.index(letra)
+            letra_desc = alfabeto[pos]
+            mensaje_desc += letra_desc
+        else:
+            mensaje_desc += letra
+    return mensaje_desc
+
+
+msg = input('Ingresa el mensaje a cifrar: ')
+
+
+
+msgCifrado = encriptaMsg(msg,alfabeto,cifra)
+msgDesc = descifraMsg(msgCifrado,alfabeto,cifra)
+
+print(res)
+print(msgDesc)

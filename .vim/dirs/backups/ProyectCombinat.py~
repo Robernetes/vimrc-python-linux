@@ -1,0 +1,102 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jun  1 09:35:19 2019
+
+@author: raagu
+"""
+import math
+opt = 0
+PLista = []
+res = 0
+
+
+
+
+
+def Permutacion_sin():
+    var = int(input("Ingrese el numero: "))
+    print(math.factorial(var))
+
+ 
+def Permutacion_con():
+    resu = 1
+    n = int(input('Ingrese "n": '))
+    var = int(input('Digite la cantidad de variaciones: '))
+    for i in range(var):
+        var1 = int(input('Ingrese valor: '))
+        PLista.append(var1)
+    for num in PLista:
+        resu *= math.factorial(num)
+    total = (math.factorial(n)) / (resu)
+    print(total)
+    
+
+
+def Combinacion_sin():
+    n = int(input('Ingrese : '))
+    r = int(input('Ingrese erre: '))
+    res = (math.factorial(n))/((math.factorial(n-r))*math.factorial(r))
+    print(res)
+    
+    
+def Combinacion_con():
+     n = int(input('Ingrese "n": '))
+     r = int(input('Ingrese "r": '))
+     res = (math.factorial(n+r-1)) / (math.factorial(r)*(math.factorial(n-1)))
+     print(res)
+
+
+def Variaciones_sin():
+    n = int(input('Ingrese : '))
+    r = int(input('Ingrese erre: '))
+    res = (math.factorial(n)) / (math.factorial(n - r))
+    print(res)
+ 
+    
+def Variaciones_con():
+    n = int(input('Ingrese : '))
+    r = int(input('Ingrese erre: '))
+    res = pow(n,r)
+    print(res)
+
+
+def Emparejamientos():
+    m = int(input('Ingresa el valor de "m"'))
+    n = int(input('Ingresa el valor de "n"'))
+    mf = math.factorial(m)
+    nf = math.factorial(n)
+    res = (math.factorial(m*n)) / ((pow(mf,n)*(nf)))
+    print(res)
+
+
+salir = False
+while(not salir):
+    print()
+    print('1. Permutacion sin Repeticion')
+    print('2. Permutacion con Repeticion')
+    print('3. Combinacion sin Repeticion')
+    print('4. Combinacion con Repeticion')
+    print('5. Variaciones sin Repeticion')
+    print('6. Variaciones con Repeticion')
+    print('7. Emparejamientos')
+    print('8. Salir')
+    opt = int(input('Ingrese una opcion: '))
+    if(opt == 1):
+        Permutacion_sin()
+    elif(opt == 2):
+        Permutacion_con()
+    elif(opt == 3):
+        Combinacion_sin()
+    elif(opt == 4):
+        Combinacion_con()
+    elif(opt == 5):
+        Variaciones_sin()
+    elif(opt == 6):
+        Variaciones_con()
+    elif(opt == 7):
+        Emparejamientos()
+    elif(opt == 8):
+        salir = True
+        print('*****Programa finalizado*****')
+    else:
+        print('Ingresa una opcion en el rango de opcciones!')

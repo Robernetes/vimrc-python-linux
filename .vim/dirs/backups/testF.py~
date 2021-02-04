@@ -1,0 +1,19 @@
+from flask import Flask
+
+app = Flask(__name__)
+
+
+    @app.route('/')
+    def index():
+        return 'Estas en el index'
+
+@app.route('/home/<string:name>', methods=['GET','POST'])
+def home(name):
+    return f'Estas en el Home {name}'
+
+@app.route('/about')
+def about():
+    return 'Estas en la section about'
+
+if __name__=='__main__':
+    app.run(debug=True)

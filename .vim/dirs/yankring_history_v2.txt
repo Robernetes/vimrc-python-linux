@@ -1,0 +1,53 @@
+#,v
+class LoginForm(FlaskForm):    username = StringField('Nombre de usuario', validators=[DataRequired()])    password = PasswordField('Password', validators=[DataRequired()])    submit = SubmitField('Enviar'),v
+class LoginForm(FlaskForm):    username = StringField('Nombre de usuario', validators=[DataRequired()])    password = PasswordField('Password', validators=[DataRequired()])    submit = SubmitField('Enviar'),v
+bootstrap = Bootstrap(app),V
+from flask import Flask,V
+from flask_bootstrap import Bootstrap,V
+from .config import Config,V
+app.config['SECRET_KEY'] = 'key secret',V
+),v
+__name__,v
+(,v
+Flask,v
+    app.config['SECRET_KEY']='SUPER_SECRET_KEY',V
+    app = Flask(__name__),V
+    bootstrap = Bootstrap(app),V
+    app.config['SECRET_KEY'] = 'key secret',V
+,V
+app = Flask(__name__)bootstrap = Bootstrap(app)app.config['SECRET_KEY'] = 'key secret',v
+or k,v in datos.items():   print(k,'===',v)   if k=='main':       print('la temperatura es: ',v['temp']),v
+f   ,1
+Panama,v
+#final=datos.items(),V
+for key, value in datos:,V
+    print(key, value),V
+Sevilla,v
+wind,v
+Hola como estas espero que bien,v
+if fancy_symbols_enabled    let g:webdevicons_enable = 1    " custom airline symbols    if !exists('g:airline_symbols')       let g:airline_symbols = {}    endif    let g:airline_left_sep = ''    let g:airline_left_alt_sep = ''    let g:airline_right_sep = ''    let g:airline_right_alt_sep = ''    let g:airline_symbols.branch = '⭠'    let g:airline_symbols.readonly = '⭤'    let g:airline_symbols.linenr = '⭡'else    let g:webdevicons_enable = 0endif,v
+    colorscheme minimalist,V
+let g:airline#extensions#tabline#fnamedmod = ':t',V
+name = 'Jose',V
+vari ,v
+AppData,v
+gruvbox,v
+let g:airline_theme = 'bubblegum',v
+Plug 'morhetz/gruvbox',v
+import random,V
+alfabeto = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',v
+mundo,v
+Hola ,v
+',v
+mensaje = input('Inserta la palabra a cifrar: ')mensaje_desc = '',v
+#mensaje = input('Inserta la palabra a cifrar: ')#mensaje_cifrado = ''mensaje_desc = ''for letra in mensaje_cifrado:    if letra in cifra:        pos = cifra.index(letra)        letra_desc = alfabeto[pos]        mensaje_desc += letra_desc    else:        mensaje_desc += letra,v
+mensaje_cifrado = ''for letra in mensaje:    if letra in alfabeto:        pos = alfabeto.index(letra)        letra_cifrada = cifra[pos]        mensaje_cifrado += letra_cifrada    else:        mensaje_cifrado += letra#print(f'Mensaje sin cifra: {mensaje}'),v
+mensaje_desc = ''for letra in mensaje_cifrado:    if letra in cifra:        pos = cifra.index(letra)        letra_desc = alfabeto[pos]        mensaje_desc += letra_desc    else:        mensaje_desc += letra,v
+mensaje_desc = '',v
+mensaje_cifrado = ''for letra in mensaje:    if letra in alfabeto:        pos = alfabeto.index(letra)        letra_cifrada = cifra[pos]        mensaje_cifrado += letra_cifrada    else:        mensaje_cifrado += letra,v
+#cifrador mediante Atbashalfabeto = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'cifra = ''.join(reversed(alfabeto))mensaje = input('Inserta la palabra a cifrar: ')mensaje_cifrado = ''for letra in mensaje:    if letra in alfabeto:        pos = alfabeto.index(letra)        letra_cifrada = cifra[pos]        mensaje_cifrado += letra_cifrada    else:        mensaje_cifrado += letra#print(f'Mensaje sin cifra: {mensaje}')print(f'Mensaje cifrado: {mensaje_cifrado}')mensaje_desc = ''#mensaje = input('Inserta la palabra a cifrar: ')#mensaje_cifrado = ''for letra in mensaje_cifrado:    if letra in cifra:        pos = cifra.index(letra)        letra_desc = alfabeto[pos]        mensaje_desc += letra_desc    else:        mensaje_desc += letraprint(f'Mensaje descifrado: {mensaje_desc}'),v
+mensaje = input('Inserta la palabra a cifrar: ')mensaje_cifrado = ''for letra in mensaje:    if letra in alfabeto:        pos = alfabeto.index(letra)        letra_cifrada = cifra[pos]        mensaje_cifrado += letra_cifrada    else:        mensaje_cifrado += letra,v
+let g:jedi#force_py_version = 3,v
+:,V
+password,v
+import osdef hola():    print("Quedo listo Neovim")print('Esperando una funcion...')hola(),v

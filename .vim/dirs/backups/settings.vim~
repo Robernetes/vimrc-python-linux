@@ -1,0 +1,82 @@
+syntax enable
+set nowrap
+set encoding=UTF-8
+set noswapfile
+set number
+set splitbelow
+set splitright
+set noshowmode
+set relativenumber
+set showcmd
+
+set updatetime=300
+set timeoutlen=200
+
+" Indent
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set cinkeys-=:
+
+
+"IndentLines
+set list lcs=tab:\|\ 
+
+"devicons
+"let g:webdevicons_enable_nerdtree = 1
+"let g:webdevicons_enable = 1
+"let g:webdevicons_conceal_nerdtreed_brackets = 0
+"let g:webdevicons_enable_airline_tabline = 1
+"let g:webdevicons_enable_airline_statusline = 1
+
+
+if exists("g:loaded_webdevicons")
+    call webdevicons#refresh()
+endif
+
+
+" Enable the mouse
+set mouse=a
+
+set autochdir
+set clipboard=unnamedplus
+
+"Fonts
+set guifont=Hack:h11
+
+"Airline
+"let g:airline_theme='base16'
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#fnamedmod = ':t'
+
+
+
+"NERDTree
+let g:NERDTreeChDirMode=2
+let g:NERDTreeIgnore=['\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__']
+let g:NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$', '\.bak$', '\~$']
+let g:NERDTreeShowBookmarks=1
+let g:nerdtree_tabs_focus_on_files=1
+let g:NERDTreeMapOpenInTabSilent = '<RightMouse>'
+let g:NERDTreeWinSize = 50
+let NERDTreeQuitOnOpen=1
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite
+"nnoremap <silent> <F2> :NERDTreeFind<CR>
+""nnoremap <silent> <F3> :NERDTreeToggle<CR>"
+nmap <F2> :NERDTreeFind<CR>
+nmap <F10> :NERDTreeToggle<CR>
+
+"Variables
+let g:auto_save = 1  " enable AutoSave on Vim startup"
+
+"Config for Python
+let python_highlight_all = 1
+
+"Config for Terminal
+vnoremap <c-t> :split<CR>:ter<CR>:resize 15<CR>
+nnoremap <c-t> :split<CR>:ter<CR>:resize 15<CR>
+
+
+"Emmet
+let g:user_emmet_mode='a'
+let g:user_emmet_leader_key='<c-z>'
